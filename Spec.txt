@@ -1,0 +1,98 @@
+recDepth 3
+pixels 768
+
+objStart CHECKERBOARD
+colorOne 1.0 1.0 1.0
+colorTwo 0.0 0.0 0.0
+ambCoeff 0.4
+difCoeff 0.1
+refCoeff 0.4
+specCoeff 0.1
+specExp 0.0
+objEnd
+
+objStart SPHERE
+center 10.0 10.0 10.0
+radius 10.0
+color 1.0 0.0 0.0
+ambCoeff 0.3
+difCoeff 0.1
+refCoeff 0.3
+specCoeff 0.3
+specExp 0.0
+objEnd
+
+objStart SPHERE
+center 10.0 10.0 -10.0
+radius 10.0
+color 0.0 0.0 1.0
+ambCoeff 0.3
+difCoeff 0.1
+refCoeff 0.3
+specCoeff 0.3
+specExp 0.0
+objEnd
+
+objStart SPHERE
+center -10.0 10.0 10.0
+radius 10.0
+color 0.0 0.0 1.0
+ambCoeff 0.3
+difCoeff 0.1
+refCoeff 0.3
+specCoeff 0.3
+specExp 0.0
+objEnd
+
+objStart SPHERE
+center -10.0 10.0 -10.0
+radius 10.0
+color 1.0 0.0 0.0
+ambCoeff 0.3
+difCoeff 0.1
+refCoeff 0.3
+specCoeff 0.3
+specExp 0.0
+objEnd
+
+objStart SPHERE
+center 0.0 70.0 0.0
+radius 10.0
+color 1.0 1.0 1.0
+ambCoeff 0.3
+difCoeff 0.1
+refCoeff 0.3
+specCoeff 0.3
+specExp 0.0
+objEnd
+
+objStart CYLINDER
+xCenter 0.0
+zCenter 0.0
+radius 5.0
+yMin 30.0
+yMax 50.0
+color 1.0 1.0 0.0
+ambCoeff 0.4
+difCoeff 0.2
+refCoeff 0.2
+specCoeff 0.2
+specExp 5.0
+objEnd
+
+objStart TRIANGLE
+a -30.0 0.0 30.0
+b 30.0 0.0 30.0
+c 0.0 50.0 30.0
+color 0.0 1.0 0.0
+ambCoeff 0.3
+difCoeff 0.2
+refCoeff 0.3
+specCoeff 0.2
+specExp 5.0
+refractiveIndex 1.5
+objEnd
+
+light 70.0 70.0 70.0
+light -70.0 70.0 -70.0
+light -15.0 10.0 30.0
